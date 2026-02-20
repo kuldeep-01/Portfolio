@@ -27,7 +27,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Varanasi, India",
-    href: "#",
+    href: "https://maps.app.goo.gl/3TQXekg4ji5XqMPB6",
   },
 ];
 
