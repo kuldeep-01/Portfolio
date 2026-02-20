@@ -29,13 +29,13 @@ const projects = [
     github: "https://github.com/kuldeep-01/food_delivery",
   },
   {
-    title: "Project Management Tool",
+    title: "Boston House Price Prediction System",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.jpg",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "Developed and deployed a Machine Learning web application to predict house prices using Regression model on Flask interface and deployed the production-ready application on Render using Docker.",
+    image: "/projects/project4.png",
+    tags: ["Machine Learning", "Python", "Numpy", "Pandas"],
+    link: "https://housing-price-4.onrender.com/",
+    github: "https://github.com/kuldeep-01/Housing-Price",
   },
 ];
 
@@ -85,7 +85,7 @@ export const Projects = () => {
                  to-transparent opacity-60"
                 />
                 {/* Overlay Links */}
-                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-60 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
