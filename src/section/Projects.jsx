@@ -2,13 +2,13 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Machine Learning Foundation ",
+    title: "Hospital-ER-dashboard",
     description:
-      "A comprehensive repositry of Machine Learning Algorithms implemented from Scratch Using Mathematical Foundations",
+      "An interactive Power BI dashboard of Hospital emergency room. It visualizes patient wait times, satisfaction scores, admission rates, and peak bottlenecks. Features dynamic, multi-page sidebar navigation designed to streamline clinical staffing and departmental workflows.",
     image: "/projects/project1.png",
-    tags: ["Python", "NumPy", "Pandas"],
-    link: "https://github.com/kuldeep-01/Machine-learning",
-    github: "https://github.com/kuldeep-01/Machine-learning",
+    tags: ["SQL", "Power BI", "Excel"],
+    link: "https://github.com/kuldeep-01/Hospital-ER-dashboard/tree/main",
+    github: "https://github.com/kuldeep-01/Hospital-ER-dashboard/tree/main",
   },
   {
     title: "Bank Loan Analysis",
@@ -20,13 +20,13 @@ const projects = [
     github: "https://github.com/kuldeep-01/Loan-Report-Power-BI-",
   },
   {
-    title: "Eat It : Food delivery Application",
+    title: "Machine Learning Foundation",
     description:
-      "A simple and responsive Food Delivery Web App where users can browse food items, add them to their cart, and manage their orders with ease.",
+      "A comprehensive repositry of Machine Learning Algorithms implemented from Scratch Using Mathematical Foundations",
     image: "/projects/project3.png",
-    tags: ["React", "HTML", "JavaScript", "React-Vite"],
-    link: "https://food-delivery-omega-livid.vercel.app/",
-    github: "https://github.com/kuldeep-01/food_delivery",
+    tags: ["Python", "NumPy", "Pandas"],
+    link: "https://github.com/kuldeep-01/Machine-learning",
+    github: "https://github.com/kuldeep-01/Machine-learning",
   },
   {
     title: "Boston House Price Prediction System",
